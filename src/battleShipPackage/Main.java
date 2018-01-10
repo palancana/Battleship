@@ -13,7 +13,7 @@ public class Main {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					GUI frame = new GUI();
+					UI frame = new UI();
 					frame.setVisible(true);
 								
 				} catch (Exception e) {

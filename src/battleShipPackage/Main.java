@@ -14,6 +14,7 @@ public class Main {
 			public void run() {
 				try {
 					UI frame = new UI();
+					
 					frame.setVisible(true);
 								
 				} catch (Exception e) {
